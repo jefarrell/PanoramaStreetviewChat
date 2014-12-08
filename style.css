@@ -1,0 +1,120 @@
+#pano {
+    position:absolute; 
+    left:0px; 
+    top: 0px; 
+    width: 1920px; 
+    height: 1080px; 
+    visibility:visible;
+    z-index: 10;
+}
+
+#map-canvas{
+    width: 100px; 
+    height: 100px;   
+    z-index: 10;
+   
+}
+
+#place {
+    position: absolute;
+    width:1920px;
+    height:1080px;
+    left:0px;
+    top:0px;
+    background-image:url("/assets/manhattan.jpg");
+    background-size:90%;
+    display:inline;
+    visibility:visible;
+    z-index:90;
+}
+
+#placeholder{
+    font-weight: 400;
+    font-size:60px;
+    color:white;
+    padding-left:5%;
+    padding-top:10%;
+}
+
+#textdiv {
+    padding-left:5%;
+    padding-top:10%;
+
+}
+   
+#address {
+    border: 4px dotted #FFF;
+    outline:0;
+    height:50px;
+    width:385px;
+    margin-top: 120px;
+    margin-left: -8px;
+    font-size: 25px;
+    font-weight:400;
+    background:transparent;
+    color:#FFF;
+    text-align: center;
+}
+
+#b1 {
+    position:absolute;
+    margin-top:120px;
+    margin-left:15px;
+    height:50px;
+    width:200px;
+    vertical-align: center;
+    border:none;
+    font-size: 40px;
+    font-weight:600;
+    color:#7591C1;
+    background-color: #FFF;
+    border:#FFF;
+    
+}
+
+#b1:hover{
+    opacity:0.8;
+}
+
+
+#chooser{
+    position:absolute;
+    z-index:194;
+    top: 10px;
+    left: 10px;
+}
+
+
+#header {
+    position:absolute;
+    margin-top: 0px;
+    margin-left:-8px;
+    margin-bottom:0px;
+    z-index:97;
+    border:#FFF;
+}
+
+#RECheader{
+    position: absolute;
+    padding-top:6%;
+    padding-left:5%;
+    
+}
+
+#drawcanvas{
+    size:100%;
+    z-index:1000;
+}
+
+
+body {
+    font-family:Raleway;
+}
+
+p {
+    font-size:25px;
+    font-weight:400;
+    color:#FFF;
+    margin-left: -8px;
+    margin-bottom:15px;
+}
