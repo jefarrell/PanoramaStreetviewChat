@@ -8,18 +8,6 @@ httpServer.listen(8080);
 
 function requestHandler(req, res) {
 	console.log("Got a request: " + req);
-	// examine who looks at page w/ regular expressions
-	//console.log(req.headers);
-	// if (req.headers['user-agent'].match(/iphone/i)){
-	// 	console.log("it's an iphone!");
-	// } else if (req.headers['user-agent'].match(/android/i)){
-	// 	console.log("it's an android!");
-	// } else if (req.headers['user-agent'].match(/windows/i)){
-	// 	console.log("it's a windows thing!");
-	// } else {
-	// 	console.log("probably a mac");
-	// }
-
 
 	var requestURL = url.parse(req.url);
 	fs.readFile(__dirname + requestURL.pathname,
